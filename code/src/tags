@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DATA_log	read_log.cpp	/^DATA_log::DATA_log()$/;"	f	class:DATA_log
+Gaussian	PF_core.cpp	/^double RobotParticle::Gaussian(double mu, double sigma, double x)$/;"	f	class:RobotParticle
+Max_noise	PF_core.cpp	/^double RobotParticle::Max_noise(double laser_data)$/;"	f	class:RobotParticle
+NUM_RANGES	PF_core.cpp	15;"	d	file:
+PI	PF_core.cpp	14;"	d	file:
+Rand_noise	PF_core.cpp	/^double RobotParticle::Rand_noise()$/;"	f	class:RobotParticle
+RobotParticle	PF_core.cpp	/^RobotParticle::RobotParticle():_motion_noise(0),_sense_noise(0)$/;"	f	class:RobotParticle
+Short_noise	PF_core.cpp	/^double RobotParticle::Short_noise(double laser_data, double exp_data)$/;"	f	class:RobotParticle
+find_dist	PF_core.cpp	/^double RobotParticle::find_dist(double laser_x, double laser_y,double laser_theta, double laser_data, map_type map)$/;"	f	class:RobotParticle
+getTheta	PF_core.cpp	/^double RobotParticle::getTheta()$/;"	f	class:RobotParticle
+getX	PF_core.cpp	/^int RobotParticle::getX()$/;"	f	class:RobotParticle
+getY	PF_core.cpp	/^int RobotParticle::getY()$/;"	f	class:RobotParticle
+heap_sort	PF_core.cpp	/^void heap_sort(vector<double> arr, int len)$/;"	f
+main	main.cpp	/^int main()$/;"	f
+map_visualization	map_visualization.cpp	/^cv::Mat map_visualization(map_type map)$/;"	f
+max_heapify	PF_core.cpp	/^void max_heapify(vector<double> arr, int start, int end)$/;"	f
+measurement_prob	PF_core.cpp	/^double RobotParticle::measurement_prob(map_type map)$/;"	f	class:RobotParticle
+move	PF_core.cpp	/^void RobotParticle::move(motion control,map_type map)$/;"	f	class:RobotParticle
+new_hornetsoft_map	bee-map.cpp	/^void new_hornetsoft_map(map_type *map, int size_x, int size_y)$/;"	f
+num_sample	main.cpp	/^int num_sample = 10000;$/;"	v
+particle_visualization	particle_visualization.cpp	/^void particle_visualization(cv::Mat _mapImage, vector<RobotParticle> particles)$/;"	f
+print	PF_core.cpp	/^void RobotParticle::print()$/;"	f	class:RobotParticle
+read_beesoft_map	bee-map.cpp	/^int read_beesoft_map(const char *mapName, map_type *map)$/;"	f
+read_data_log	read_log.cpp	/^int read_data_log(const char *data_log_name, vector<DATA_log> *data_log)$/;"	f
+resampling	PF_core.cpp	/^void resampling(vector<RobotParticle> &old_particles, vector<double> weight)$/;"	f
+sample	PF_core.cpp	/^double sample()$/;"	f
+sense	PF_core.cpp	/^void RobotParticle::sense(DATA_log data)$/;"	f	class:RobotParticle
+set	PF_core.cpp	/^void RobotParticle::set(array<int, 2> empty_pair)$/;"	f	class:RobotParticle
+set_noise	PF_core.cpp	/^void RobotParticle::set_noise(double motion_noise, double sense_noise)$/;"	f	class:RobotParticle
